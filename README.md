@@ -4,9 +4,9 @@ An AI-powered wellness companion that supports mental health through empathetic 
 
 ## Overview
 
-MindBridge engages users in supportive dialogue, identifies emotional patterns, and offers evidence-based wellness recommendations while prioritizing privacy and ethical AI practices.
+MindBridge operates in the **mental wellness and AI healthcare support** domain. It functions as an empathetic conversational agent that provides emotional guidance, tracks mood patterns, and directs users to professional resources when needed.
 
-> **Note:** This is a wellness support tool, not a substitute for professional mental health care.
+&gt; **Note:** MindBridge is a wellness support tool and is not a substitute for professional mental health care.
 
 ## Features
 
@@ -18,16 +18,22 @@ MindBridge engages users in supportive dialogue, identifies emotional patterns, 
 
 ## Tech Stack
 
-Python | LangChain | OpenAI API | scikit-learn | TensorFlow | FastAPI | SQLite/PostgreSQL | React/Streamlit
+Python | LangChain | Groq API | Flask | HTML/CSS
 
-## Getting Started
+## How to Run
 
 ```bash
+# Clone repo
 git clone https://github.com/hinahammad/mindbridge-ai-wellness.git
 cd mindbridge-ai-wellness
-python -m venv venv
-source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Set up API key
 cp .env.example .env
-# Edit .env with your API keys
-uvicorn api.main:app --reload
+# Edit .env with your real API key
+
+# Run the app
+cd task2-ai-agent
+python app.py
