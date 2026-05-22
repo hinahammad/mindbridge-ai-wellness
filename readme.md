@@ -1,3 +1,11 @@
+
+
+**Name:** [Hina Hammad]  
+**Roll Number:** [0000674895]  
+**Course:** Artificial Intelligence (BsCs5th Semester)  
+**Instructor:** Touqeer Abbas
+
+An AI-powered wellness companion...
 # MindBridge AI Wellness Agent
 
 An AI-powered wellness companion that supports mental health through empathetic conversations, mood tracking, and personalized guidance.
